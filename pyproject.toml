@@ -1,0 +1,31 @@
+[project]
+name = "xebees"
+version = "0.1.0"
+requires-python = ">=3.12, <3.13"
+dependencies = [
+    "numpy",
+    "jax",
+    "matplotlib", # For running Jupyter notebooks
+    "notebook",
+    "tqdm>=4.67.1",
+    "threadpoolctl>=3.6.0",
+    "line-profiler>=4.2.0",
+    "nvidia-cupynumeric>=25.3.2",
+    "torch>=2.7.1",
+    "cupy-cuda12x>=13.4.1",
+    "nvtx>=0.2.12",
+    "opt-einsum>=3.4.0",
+    "pytest>=8.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["lib"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "lib", "1D", "2D", "3D"]
+addopts = "-v"
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore::RuntimeWarning:.*cupynumeric.*",
+    "ignore::DeprecationWarning:.*cupynumeric.*",
+]

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use XEBEES in your research, please cite it using the metadata below."
+title: "XEBEES: eXact thrEe-Body EigEn Solver"
+authors:
+  - family-names: "Shabica"
+    given-names: "Vale Cofer"
+  - family-names: "Bhati"
+    given-names: "Mansi"
+  - family-names: "Bradbury"
+    given-names: "Nadine"
+version: "0.1.0"
+date-released: "2026-05-06"
+repository-code: "https://github.com/subotnikgroup/xebees"
+license: "MIT"

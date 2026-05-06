@@ -1,0 +1,23 @@
+name : xebees
+channels:
+  - legate/label/experimental
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - jax
+  - opt_einsum
+  - matplotlib
+  - notebook
+  - tqdm=4.67.1
+  - threadpoolctl=3.6.0
+  - line_profiler
+  - cupy
+  - nvtx
+  - cupynumeric
+  - pytorch-cuda
+  - pytorch
+  - torchvision
+  - pytest
+  - pandas=2.3.3
