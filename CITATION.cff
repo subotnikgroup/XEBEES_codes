@@ -10,5 +10,7 @@ authors:
     given-names: "Nadine"
 version: "0.1.0"
 date-released: "2026-05-06"
+doi: "10.5281/zenodo.20047795"
+url: "https://doi.org/10.5281/zenodo.20047795"
 repository-code: "https://github.com/subotnikgroup/xebees"
 license: "MIT"
