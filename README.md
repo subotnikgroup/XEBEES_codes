@@ -1,4 +1,5 @@
 # eXact thrEe-Body EigEn Solver, XEBEES or ξ3-🐝
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20047795.svg)](https://doi.org/10.5281/zenodo.20047795)
 XEBEES, pronounced ZEE-bees and also written as ξ3-🐝, is a
 numerically exact eigensolver for the quantum three-body problem
 developed in the Subotnik Group at Princeton University. XEBEES is
@@ -208,9 +209,7 @@ xebees/
 
 ## Citation
 
-## Citation
-
-If you use XEBEES in your research, please cite it using the metadata in `CITATION.cff`.
+If you use XEBEES in your research, please cite: Shabica, V. C., Bhati, M., & Bradbury, N. (2026). XEBEES: eXact thrEe-Body EigEn Solver (v0.1.1). Zenodo. https://doi.org/10.5281/zenodo.20047795 
 
 ## License
 
